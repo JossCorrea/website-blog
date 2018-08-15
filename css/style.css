@@ -1,0 +1,82 @@
+/*Geral*/
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Open Sans', Arial, Helvetica;
+    color:#4A4A4A;
+    margin:0;
+}
+
+
+/*Layout*/
+.coluna_1de3{
+    display:inline-block;
+    width: 33%;
+}
+
+.coluna_2de3{
+    display:inline-block;
+    width: 66%;
+    height: 481px;
+}
+
+
+/*Cabeçalho*/
+.cabecalho__titulo{
+    color:#9013FE;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+/*Seção*/
+.conteudo{
+    width: 960px;
+    margin:0 auto;
+}
+
+/*Seção > Dados Autora*/
+.autora{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding:20px;
+    vertical-align: top;
+    height: 481px;
+}
+
+.autora h4,autora p{
+    margin:0;
+}
+.autora h4{
+    margin-top:10px;
+}
+
+/*Seção > Artigo*/
+.artigo{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.artigo h1{
+    font-size:36px;
+    margin-top:0;
+}
+
+.artigo p{
+    font-size: 24px;
+}
+
+
+/*Rodapé*/
+footer{
+    text-align: center;
+}
+
+footer p{
+    margin:0;
+    padding:10px 0;
+}
