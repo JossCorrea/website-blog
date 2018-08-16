@@ -3,6 +3,37 @@
     box-sizing:border-box;
 }
 
+
+.topbar{
+    position: fixed;
+    width: 100%;
+    box-shadow:0 1px 4px rgba(0, 0, 0, .15);
+    background-color: white;
+    top:0;
+    z-index: 999;
+}
+.container{
+    width: 90%;
+    margin: 0 auto; 
+
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
+.menu__item {
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
 body{
     font-family: 'Open Sans', Arial, Helvetica;
     color:#4A4A4A;
@@ -22,7 +53,9 @@ body{
     height: 481px;
 }
 
-
+.cabecalho{
+    padding-top: 70px;
+}
 /*Cabeçalho*/
 .cabecalho__titulo{
     color:#9013FE;
